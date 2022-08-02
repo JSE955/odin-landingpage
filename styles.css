@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text, .header-link, .hero-image {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px;
+    font-size: 18px;
+}
